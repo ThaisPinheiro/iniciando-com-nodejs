@@ -1,0 +1,26 @@
+POST http://localhost:8081/products
+content-type: application/json
+
+{
+    "name": "borracha",
+    "price": 50.00
+}
+
+###
+
+GET http://localhost:8081/products
+
+###
+GET http://localhost:8081/products/2e38a490-fc95-4f8c-921a-fdb24b6caaf5
+
+###
+PUT http://localhost:8081/products/eb292d62-3abe-486e-bc37-4b7a6effd6b8
+content-type: application/json
+
+{
+    "name": "Borracha2",
+    "price": 1.00
+}
+
+###
+DELETE http://localhost:8081/products/3e35b3cf-8a0c-4e04-96da-95d5113a3edb
